@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Raj Shah</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="dark" id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Raj Shah</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <button class="icon" onclick="document.body.classList.contains('dark') ? document.body.classList.remove('dark') : document.body.className += ' dark'">
+                            <i class="fas fa-sun" id="sun"></i>
+                            <i class="fas fa-moon" id="moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Raj
+                        <span class="text-primary">Shah</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Menlo Park, CA · (603) 921-9526 ·
+                        <a href="mailto:rajshahworks@gmail.com" target="_blank">rajshahworks@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">
+                        Software Engineer at
+                        <a href="https://www.meta.com/" target="_blank">Meta</a>
+                        <br />
+                        Passionate about all things tech.
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/shahrk97/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="assets/resume.pdf" target="_blank"><i class="far fa-file"></i></a>
+                        <a class="social-icon" href="https://github.com/shahrk" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/rajshah_06" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Programmer</h3>
+                            <div class="subheading mb-3">
+                                <a href="https://www.ieclab.org/people#:~:text=Raj%20Shah,synthetic%20peer." target="_blank">IEC Lab</a>
+                                , North Carolina State University
+                            </div>
+                            <ul>
+                                <li>SimStudent is an ML-agent used as a synthetic tutee for students to learn by teaching.</li>
+                                <li>Worked on making SimStudent available on the web by transforming the existing java based desktop application to a web based application using Spring Boot, Angular & MySQL.</li>
+                                <li>Made it support concurrent users and implemented service for health checking servers and routing users to appropriate servers (as routing needed to be sticky).</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer</h3>
+                            <div class="subheading mb-3">General Electric (GE)</div>
+                            <ul>
+                                <li>Developed an application that models cost of service agreements between GE and wind farm owners. Technologies used: Spring Boot, Angular, Node and other AWS services</li>
+                                <li>Setup OAuth2 authentication and authorization for the cost modelling application</li>
+                                <li>Created a reverse proxy service using Node that acted as an entrypoint for incoming requests</li>
+                                <li>Developed Raven, a service for sending targeted email, text message and push notifications based on user location. Technologies used: Spring Boot, RabbitMQ, UrbanAirShip</li>
+                                <li>Dockerized local development setup and automated deployment using Jenkins</li>
+                                <li>Created generic CRUD API to enable dynamic crud operations without any boiler plate (used for prototyping)</li>
+                                <li>Led migration from Cloud Foundry to AWS, as well as efforts for refactoring and performance optimization</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2018 - October 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer Intern</h3>
+                            <div class="subheading mb-3">General Electric (GE)</div>
+                            <ul>
+                                <li>Developed a notification system for handling push notifications. Technologies used: JavaScript, NodeJs, Express, Spring Boot</li>
+                                <li>Handled the end to end development of a product catalog web app. Technologies used: Angular 6, NodeJS, Express</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2018 - Mat 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Teaching Assistant</h3>
+                            <div class="subheading mb-3">DAIICT</div>
+                            <ul>
+                                <li>Teaching assistant for Study Hours of Data Structure and Algorithms</li>
+                                <li>Worked with students who lagged behind in studies towards improving their grades by helping them with assignments, revisiting abstruse topics and solving doubts</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2017 - December 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant</h3>
+                            <div class="subheading mb-3">DAIICT</div>
+                            <ul>
+                                <li>Created Python script for collecting, cleaning and processing more than 10 Million tweets</li>
+                                <li>Determined factors with positive correlation such as influence factor (number of followers), trending factor (google trends score), sentiment (using naive bayes), time of tweet</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2017 - May 2017</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">North Carolina State University</h3>
+                            <div class="subheading mb-3">Masters of Computer Science</div>
+                            <div>Courses Taken - Computer & Network Security, DBMS, Automated Learning and Data Analysis, Software Engineering, Design & Analysis of Algorithms</div>
+                            <p>GPA: 4.00</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - Present (Expected Gradudation: May 2022)</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Dhirubhai Ambani Institute of Information & Communication Technology</h3>
+                            <div class="subheading mb-3">Bachelors of Technology in Computer Science</div>
+                            <div>Courses Taken - Operating Systems, Computer Networks, Database Systems, System Software, Object Oriented Programming</div>
+                            <p>GPA: 8.19</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2014 - May 2018</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Frameworks</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Java</span>
+                                <i class="fab fa-java"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Spring Boot</span>
+                                <img src="assets/img/spring.png" width="45" height="45" />
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">JavaScript</span>
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Angular</span>
+                                <i class="fab fa-angular"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">SQL</span>
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">NodeJS</span>
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Python</span>
+                                <i class="fab fa-python"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">GoLang</span>
+                                <img src="assets/img/go.png" width="50" height="45" />
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">React</span>
+                                <i class="fab fa-react"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Tools (Software & Libraries)</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">AWS</span>
+                                <i class="fab fa-aws"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Docker</span>
+                                <i class="fab fa-docker"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Redis</span>
+                                <img src="assets/img/redis.png" width="45" height="45" />
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Jenkins</span>
+                                <i class="fab fa-jenkins"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Postman</span>
+                                <img src="assets/img/postman.png" width="50" height="50" />
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Git</span>
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Bootstrap</span>
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="tooltip list-inline-item">
+                                <span class="tooltiptext">Gulp</span>
+                                <i class="fab fa-gulp"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Other</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            PostgreSQL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            MongoDB
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            RabbitMQ
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            JMeter
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>I enjoy playing badminton, disc golf, pool, swimming, hiking, rock climbing, and reading books. I also like to play Dota occasionally.</p>
+                    <p class="mb-0">I spend a large amount of my free time exploring the latest technology advancements in the software world and am interested in system design. I also dabble in finance and economics. I have been recently exploring the crypto DeFi space as it is at the intersection of my interests of finance, economics and software.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3"><a href="https://github.com/shahrk/basic-rate-limiter" target="_blank">API Rate Limiter</a></div>
+                            <p>An API rate limiter developed in NodeJS using Express and Redis</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3"><a href="https://raj-chatroom.herokuapp.com/" target="_blank">Chat Room Application</a></div>
+                            <p>A real time chat room application using Spring Boot, Web Sockets and RabbitMQ</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3"><a href="https://github.com/shahrk/wolfWr-backend" target="_blank">Big Box Retailer Database Service</a></div>
+                            <p>Designed and implemented a database service for a Costco like store using MariaDB & Spring Boot. Performed partitioning, indexing, and query optimizations to improve performance</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3"><a href="https://github.com/shahrk/graft" target="_blank">GRaft</a></div>
+                            <p>Developed a raft based distributed Key Value store in Go, did a manual implementation of raft instead of using an existing library</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3"><a href="https://github.com/shahrk/casper-frontend" target="_blank">Casper Game</a></div>
+                            <p>Web based flappy bird like game with social media login and leaderboards developed using JavaScript, SpringBoot & Redis</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Non Volatile Virtual File System</div>
+                            <p>A Java FAT file system made using File Allocation Table and File Entry Table</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Smart Tic-Tac-Toe</div>
+                            <p>A Tic-Tac-Toe game engine that never loses. Developed using minimax and optimized using alpha-beta pruning</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact-->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact</h2>
+                    <p>If you liked my work or have queries about any of my projects, you can reach out to me via email or DM me on Twitter. If you'd like to contribute to any of my projects you can simply open an issue on GitHub.</p>
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/shahrk" target="_blank">shahrk</a>
+                    <br />
+                    <i class="fab fa-twitter"></i>
+                    <a href="https://twitter.com/rajshah_06" target="_blank">rajshah_06</a>
+                    <br />
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:rajshahworks@gmail.com" target="_blank">rajshahworks@gmail.com</a>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
